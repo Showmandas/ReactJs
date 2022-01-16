@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.maindiv{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: khaki;
+}
+
+.countdiv{
+    width: 30vw;
+    height: 30vh;
+    background-color: purple;
+    text-align: center;
+}
+
+.btndiv{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.btndiv button{
+    width: 5vw;
+    padding: 10px;
+}
+
+h2{
+    margin-top: 10%;
+    font-size: 30pt;
+    color:aliceblue;
+}
+button{
+    font-size: 15pt;
+    border: none;
+    padding: 8px;
+    background-color:burlywood;
+    border-radius: 10px;
+}
