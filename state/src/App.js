@@ -12,7 +12,11 @@ import React from 'react'
 // import DataFetch from './useEffect/DataFetch'
 // import TitleCount from './useEffect/TitleCount'
 // import ScreenSize from './useEffect/ScreenSize';
-import MultiInput from './MultipleHandler.js/MultiInput';
+// import MultiInput from './MultipleHandler.js/MultiInput';
+// import Clockshow from './Clock/Clockshow';
+// import IncrDecr from './IncrDecr/IncrDecr';
+import NameChange from './NameChange/NameChange'
+
 export default function App() {
   // const data="I am parent data(app)";
   // const handleChildData=(childData)=>{
@@ -32,7 +36,10 @@ export default function App() {
       {/* <DataFetch /> */}
       {/* <TitleCount /> */}
       {/* <ScreenSize /> */}
-      <MultiInput />
+      {/* <MultiInput /> */}
+      {/* <Clockshow /> */}
+      {/* <IncrDecr /> */}
+      <NameChange />
         </div>
   )
   }

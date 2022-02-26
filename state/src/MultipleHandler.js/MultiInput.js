@@ -12,26 +12,32 @@ const MultiInput = () => {
       const {value,name}=event.target;
 
       setFullname((preVal)=>{
-          if(name==="fname"){
-              return {fname : value,
-              lname : preVal.lname,
-              email : preVal.email
-              }
-          }else if(name==="lname"){
-              return {
-                fname : preVal.fname,
-                lname : value,
-                email : preVal.email
-              }
-            }
-               else if(name==="email"){
-                return {
-                  fname : preVal.fname,
-                  lname : preVal.lname,
-                  email : value
-                }
-            
+        console.log(preVal);
+        return{
+          ...preVal,
+          [name]: value,
         }
+
+        //   if(name==="fname"){
+        //       return {fname : value,
+        //       lname : preVal.lname,
+        //       email : preVal.email
+        //       }
+        //   }else if(name==="lname"){
+        //       return {
+        //         fname : preVal.fname,
+        //         lname : value,
+        //         email : preVal.email
+        //       }
+        //     }
+        //        else if(name==="email"){
+        //         return {
+        //           fname : preVal.fname,
+        //           lname : preVal.lname,
+        //           email : value
+        //         }
+            
+        // }
       })
     }
 
