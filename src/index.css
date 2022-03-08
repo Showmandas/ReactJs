@@ -1,13 +1,40 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.reactDiv{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 10%;
+    padding: 2rem 4rem;
+}
+/* h1{
+    padding-top: 2rem;
+} */
+.reactInfo{
+    width: 100%;
+    height: 40%;
+  padding: 2rem;
+  /* border: 1px solid #000; */
+  margin-left: 2rem;
+  text-align: center;
+  line-height: 1.5rem;
+  background: #fff;
+  box-shadow: 0rem 0.4rem 2rem rgba(35,52,53,0.25);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.reactInfo h2{
+    font-size: 2rem;
+}
+.reactInfo h4{
+    font-size: 1rem;
+    text-transform: capitalize;
+}
+
+@media(max-width:400px){
+    .reactDiv{
+        width: 100%;
+        flex-direction: column;
+        margin-bottom: 2rem;
+    }
 }
