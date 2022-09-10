@@ -15,7 +15,10 @@ import React from 'react'
 // import MultiInput from './MultipleHandler.js/MultiInput';
 // import Clockshow from './Clock/Clockshow';
 // import IncrDecr from './IncrDecr/IncrDecr';
-import NameChange from './NameChange/NameChange'
+// import NameChange from './NameChange/NameChange'
+// import UseStateArray from './useStateArray/UseStateArray'
+// import UseObjectArray from './useObjectArray/UseObjectArray'
+import BasicTodoApp from './basicTodo/BasicTodoApp'
 
 export default function App() {
   // const data="I am parent data(app)";
@@ -39,7 +42,10 @@ export default function App() {
       {/* <MultiInput /> */}
       {/* <Clockshow /> */}
       {/* <IncrDecr /> */}
-      <NameChange />
+      {/* <NameChange /> */}
+      {/* <UseStateArray /> */}
+      {/* <UseObjectArray /> */}
+       <BasicTodoApp />
         </div>
   )
   }

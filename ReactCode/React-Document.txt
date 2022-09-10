@@ -1,0 +1,7 @@
+*React is used for building user interface.
+*Pre name: Fax Js(2011)
+*Prototype by: Jordan Walke(S/W Engineer,Facebook)[Influenced from HTML component of PHP ->XHP-JS(framework)]
+*Applied first in fb newsfeed (2011)
+*Then Applied in Insta(2012)
+*Post Name: React(2013)->Opensource
+*User: 20,00,000(2M)[Worldwide]
