@@ -18,8 +18,11 @@ import React from 'react'
 // import NameChange from './NameChange/NameChange'
 // import UseStateArray from './useStateArray/UseStateArray'
 // import UseObjectArray from './useObjectArray/UseObjectArray'
-import BasicTodoApp from './basicTodo/BasicTodoApp'
-
+// import BasicTodoApp from './basicTodo/BasicTodoApp'
+// import Parent from './Event_binding/MethodsAsProps/Parent'
+// import Styling from './Stylesheets/Styling'
+// import Inline from './Stylesheets/Inline'
+import Form from './Basic-Form/Form'
 export default function App() {
   // const data="I am parent data(app)";
   // const handleChildData=(childData)=>{
@@ -28,6 +31,10 @@ export default function App() {
   
   return (
     <div>
+      <Form />
+      {/* <Inline /> */}
+      {/* <Styling primary={true}/> */}
+      {/* <Parent/> */}
       {/* <State />/ */}
       {/* <Event_Handler /> */}
       {/* <Event_binding /> */}
@@ -45,7 +52,7 @@ export default function App() {
       {/* <NameChange /> */}
       {/* <UseStateArray /> */}
       {/* <UseObjectArray /> */}
-       <BasicTodoApp />
+       {/* <BasicTodoApp /> */}
         </div>
   )
   }
